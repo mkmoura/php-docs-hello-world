@@ -34,8 +34,8 @@
   </head> 
   <body>
     
-   /*<img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Construção"> */
-   <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo.png" alt="Construção"> 
+   <!- <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Marista"> ->
+   <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo.png" alt="Marista"> 
     
     
    
