@@ -32,7 +32,7 @@
                                     <article id="post-139" class="post-139 page type-page status-publish hentry">
                                         <div class="entry-content">
                                             <div class="vc_row wpb_row vc_row-fluid">
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                <div class="left-column">
                                                     <div class="vc_column-inner">
                                                         <div class="wpb_wrapper">
                                                             <div class="wpb_single_image wpb_content_element vc_align_left  wpb_animate_when_almost_visible wpb_left-to-right left-to-right">
@@ -45,7 +45,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                <div class="right-column">
                                                     <div class="vc_column-inner">
                                                         <div class="wpb_wrapper">
                                                             <div class="wpb_text_column wpb_content_element ">
