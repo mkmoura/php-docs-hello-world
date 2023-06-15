@@ -25,6 +25,7 @@
         font-family: Arial, sans-serif; 
         text-align: center; 
         padding-top: 100px;
+       
       } 
       h1 { color: #333333; } 
       img { max-width: 600px; height: auto; }
@@ -33,7 +34,9 @@
   </head> 
   <body>
     
-    <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Construção"> 
+   /*<img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Construção"> */
+   <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo.png" alt="Construção"> 
+    
     
    
     
