@@ -26,7 +26,7 @@
       Site em construção. Volte em breve!
     </p> 
     
-    <div style="display: flex;">
+  <div style="display: flex;">
     <div style="flex: 1;">
 
 
@@ -36,7 +36,7 @@
     </div>
       
       
-  <div style="flex: 1;">
+    <div style="flex: 1;">
 
                       <p>Presente em mais de 80 países, a ação marista mantém escolas, universidades, unidades sociais, centros de evangelização, editoras, veículos de comunicação e hospitais. São aproximadamente 3.500 Irmãos que partilham suas tarefas de maneira direta com 72 mil Leigos, promovendo a missão nos cinco continentes, beneficiando mais de 654 mil crianças.</p>
                       <p>No Brasil, os primeiros Irmãos Maristas chegaram em 1897 dispostos a dar continuidade ao projeto de formar bons cristãos e virtuosos cidadãos. O Brasil Marista está presente em 23 estados e no Distrito Federal. São 98 cidades brasileiras, mais de 27 mil Irmãos, Leigas, Leigos e colaboradores, mais de 80 mil alunos distribuídos em unidades de educação básica, mais de 58 mil alunos em unidades de ensino superior, mais de 2 milhões atendimentos somente pelo Sistema Único de Saúde (SUS) e mais de 30 mil pessoas beneficiadas na solidariedade.</p>
@@ -51,11 +51,13 @@
                       <p style="text-align: center;">
                           <a href="http://maristas.org.br/" target="_blank" rel="noopener noreferrer">Província Marista Brasil Sul-Amazônia</a>
                       </p>
+      </div>
     </div>
-    <div>                                                                                                      
+    
+                                                                                                   
     <footer>
     <p>© <?php echo date('Y'); ?> Marista Brasil - ABEC - CNPJ: 60.982.352/0053-42</p>
     </footer>
-    </div>                                                                                                      
+                                                                                                         
   </body> 
 </html>
