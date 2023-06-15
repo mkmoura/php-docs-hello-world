@@ -7,7 +7,7 @@
     <style> 
       body 
       { 
-        background-color: #B2EBF2; /* Cor azul claro */ 
+        background-color: #00008B; /* Cor azul claro */ 
         font-family: Arial, sans-serif; 
         text-align: center; 
         padding-top: 100px;
