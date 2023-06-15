@@ -4,7 +4,9 @@
       Site em construção
     </title> 
     
-    <style> 
+    <style>
+      /* Estilos para dispositivos móveis */
+      @media only screen and (max-width: 767px) {
       body 
       { 
         background-color: #FFFFFF; /* Cor azul claro */ 
@@ -13,7 +15,20 @@
         padding-top: 100px;
       } 
       h1 { color: #333333; } 
-      img { max-width: 400px; height: auto; } 
+      img { max-width: 400px; height: auto; }
+      }
+      /* Estilos para navegadores desktop */
+      @media only screen and (min-width: 768px) {
+      body 
+      { 
+        background-color: #FFFFFF; /* Cor azul claro */ 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+        padding-top: 100px;
+      } 
+      h1 { color: #333333; } 
+      img { max-width: 400px; height: auto; }
+      }
     </style> 
   </head> 
   <body>
