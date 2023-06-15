@@ -19,5 +19,9 @@
     <p>
       Site em construção. Volte em breve!
     </p> 
+    <footer>
+    <p>© <?php echo date('Y'); ?> Marista Brasil - ABEC - CNPJ: 60.982.352/0053-42</p>
+    </footer>
+
   </body> 
 </html>
