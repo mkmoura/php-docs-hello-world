@@ -52,10 +52,10 @@
                           <a href="http://maristas.org.br/" target="_blank" rel="noopener noreferrer">Província Marista Brasil Sul-Amazônia</a>
                       </p>
     </div>
-                                                                                                           
+    <div>                                                                                                      
     <footer>
     <p>© <?php echo date('Y'); ?> Marista Brasil - ABEC - CNPJ: 60.982.352/0053-42</p>
     </footer>
-
+    </div>                                                                                                      
   </body> 
 </html>
