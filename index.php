@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html> 
   <head> 
     <title>
-      Site em construção
+      Marista Brasil
     </title> 
     
     <style>
@@ -15,7 +15,7 @@
         padding-top: 100px;
       } 
       h1 { color: #333333; } 
-      img { max-width: 400px; height: auto; }
+      img { max-width: 600px; height: auto; }
       }
       /* Estilos para navegadores desktop */
       @media only screen and (min-width: 768px) {
@@ -27,19 +27,15 @@
         padding-top: 100px;
       } 
       h1 { color: #333333; } 
-      img { max-width: 400px; height: auto; }
+      img { max-width: 600px; height: auto; }
       }
     </style> 
   </head> 
   <body>
-    <h1>
-      Site em construção
-    </h1>
+    
     <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Construção"> 
     
-    <p>
-      Site em construção. Volte em breve!
-    </p> 
+   
     
   <div style="display: flex;">
     <div style="flex: 1;">
