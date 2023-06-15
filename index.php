@@ -12,7 +12,7 @@
     </style> </head> 
   <body>
     <h1>
-      Site em Manutenção
+      Site em construção
     </h1>
     <img src="https://marista.edu.br/intranett/wp-content/uploads/2023/03/logo-mobile.png" alt="Manutenção"> 
     
