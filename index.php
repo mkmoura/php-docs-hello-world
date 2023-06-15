@@ -1,3 +1,1 @@
-<?php
-
-echo "Hello World!";
+<!DOCTYPE html> <html> <head> <title>Site em Manutenção</title> <style> body { background-color: #f1f1f1; font-family: Arial, sans-serif; text-align: center; padding-top: 100px; } h1 { color: #333333; } img { max-width: 400px; height: auto; } </style> </head> <body> <h1>Site em Manutenção</h1> <img src="imagem_manutencao.jpg" alt="Manutenção"> <p>Site em construção. Volte em breve!</p> </body> </html>
