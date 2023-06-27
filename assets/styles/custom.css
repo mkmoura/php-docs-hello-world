@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Wix+Madefor+Text:wght@400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Kanit';
+    width: 100%;
+    height: auto;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/*
+* SECTION 1
+*/
+
+section.header div.text {
+    position: relative;
+    z-index: 1
+}
+
+section.header {
+    background-color: #005a93;
+    width: 100%;
+    height: 97vh;
+}
+
+section.header .item-slider {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #005a93;
+    z-index: 0;
+    width: 100%;
+    height: 97vh;
+}
+
+section.header .item-slider .items {
+    width: 100%;
+    height: 97vh;
+    background-size: cover;
+    background-position: top;
+}
+
+section.header header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6530987394957983) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.header header a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    transition: .5s;
+}
+
+section.header header a:hover {
+    color: #005a93;
+}
+
+section.header h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+section.header .circle-bottom {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: #5bc3de;
+    border-radius: 50%;
+    bottom: 0px;
+    cursor: pointer
+}
+
+section.header .slick-dots {
+    bottom: 40px;
+    z-index: 99
+}
+
+section.header .slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px
+}
+
+/*
+* SECTION 2
+*/
+
+section.historia {
+    background-color: #FFF;
+}
+
+section.historia h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #5bc3de;
+}
+
+section.historia h2 span {
+    color: #305990;
+}
+
+section.historia p {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-weight: 300;
+    color: #252525;
+    font-size: 17px;
+}
+
+section.historia .bg-circle {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+/*
+* SECTION FRANCA
+*/
+
+section.franca {
+    background-color: #3d5fa0;
+}
+
+section.franca h2 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+section.franca h2 span {
+    color: #FFF;
+}
+
+section.franca p {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 17px;
+}
+
+section.franca .bg-circle {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+@keyframes rotate360 {
+    to { transform: rotate(360deg); }
+}
+.rotate { animation: 80s rotate360 infinite linear; }
+
+.z-index2 {
+    position: relative;
+    z-index: 2;
+}
+
+
+/*
+* SECTION 3
+*/
+
+section.origens {
+    background-color: #0096d7;
+    border-bottom-right-radius: 50px;
+}
+
+section.origens h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFF;
+}
+
+section.origens p {
+
+    font-weight: 300;
+    color: #FFF;
+    font-size: 17px;
+}
+
+section.origens p strong { 
+    font-weight: 500;
+}
+
+
+/*
+* SECTION 4
+*/
+
+section.video {
+    height: auto;
+    background-color: #003a63;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+section.video a {
+    color: #5bc3de;
+    text-decoration: none
+}
+
+section.video h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #5bc3de;
+}
+
+section.video h2 span {
+    color: #FFF;
+}
+
+section.video p {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 17px;
+}
+
+section.video video {
+    border-radius: 5px
+}
+
+/*
+* SECTION 5
+*/
+
+section.lideranca {
+    background-color: #FFF;
+    background-image: url(../images/bg-lideranca.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+section.lideranca h4 {
+    color: #FFF;
+    font-size: 27px;
+}
+
+section.lideranca p {
+    font-family: 'Wix Madefor Text', sans-serif;
+    color: #FFF;
+    font-weight: 300;
+}
+
+section.lideranca p span.aspas{
+    font-family: 'Secular One', sans-serif;
+    font-size: 34px;
+    color: #326cba;
+    font-weight: 700;
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+}
+
+section.lideranca p span.nome {
+    color: #FFF;
+    font-weight: 500;
+}
+
+section.lideranca p span.funcao {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+section.lideranca .slick-dots {
+    bottom: 90px;
+    left: 120px;
+}
+
+section.lideranca .slick-dots li button:before {
+    width: 30px;
+    height: 5px;
+    background-color: #fab834;
+    font-size: 0px;
+    left: 7px;
+}
+
+section.lideranca .slick-list {
+    overflow: inherit
+}
+
+section.lideranca .slick-dots li {
+    margin: 13px;
+}
+
+section.video-bottom video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section.faq h3 {
+    color: #005a93;
+    font-weight: 500
+}
+
+section.faq .accordion-button:not(.collapsed) {
+    color: #005a93;
+    background-color: transparent;
+    box-shadow: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section.faq .accordion-item {
+    border: none;
+    border-bottom: solid 1px #CCC
+}
+
+section.faq .accordion-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section.faq .accordion-button {
+    color: #005a93;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section.faq .accordion-body {
+    font-weight: 300
+}
+
+.accordion-button::after {
+    align-items: center;
+    justify-content: center;
+    background-color: #005a93;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.accordion-button:not(.collapsed)::after, .accordion-button::after {
+    background-image: url(../images/down.svg);
+    background-position: center
+}
+
+section.redes {
+    padding-top: 50px
+}
+
+section.redes h4 {
+    color: #005a93;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section.redes a { 
+    text-decoration: none
+}
+
+
+footer {
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 300px;
+}
+
+footer span.his, footer span.prp {
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer p.copy {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+footer .separador {
+    width: 400px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+
+.menu-redes svg {
+    width: 25px;
+    height: 25px;
+}
+
+.dados-mapa {
+    position: absolute;
+    width: 190px;
+    height: auto;
+    background-color: #FFF;
+    border-bottom: solid 1px #333;
+    border-radius: 5px;
+    z-index: 99;
+    top: 250px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 3px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 21px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 21px -8px rgba(0,0,0,0.75);
+    display: none;
+}
+
+.dados-mapa div {
+    color: #fab834;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.dados-mapa a { 
+    color: #005a93;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.dados-mapa a:hover {
+    color: #fab834
+} 
+
+
+@media only screen and (max-width: 920px) {
+    section.lideranca {
+        background-color: #005a93;
+        background-image: none;
+        display: flex;
+        align-items: center;
+    }
+    .lideranca-slider {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    section.header h1 {
+        font-size: 35px;
+    }
+
+    section.lideranca {
+        background-color: #005a93;
+        background-image: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .lideranca-slider {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #005a93;
+        background-image: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    section.lideranca .slick-dots {
+        bottom: 50px;
+        left: 0px;
+    }
+
+    section.video video {
+        padding-bottom: 50px
+    }
+
+    .dados-mapa {
+        display: block;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+
+}
